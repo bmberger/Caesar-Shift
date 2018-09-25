@@ -80,20 +80,3 @@ function checkCaesar(encrypted, guess) {
     }
     return false;
 }
-
-/*
- * *** EXTENSION ***
- * ----
- * Encrypts the given string using the Vigenere cipher and the given keyword.
- * ----
- * Params:
- * > original - string you would like to encrypt
- * > length - given keyword
- *
- * Returns:
- * > string - the encrypted version of the given string using the given keyword
- */
-
-function encryptVigenere(original, keyword) {
-  // TODO: Complete this function.
-}
